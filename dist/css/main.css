@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1280px;
   padding: 0 1.5rem;
@@ -13,7 +17,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #ffbc00; }
+  background-color: #1089ff; }
 
 .btn-light {
   color: #333;
@@ -26,11 +30,11 @@
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: #ffbc00; }
+  background-color: #1089ff; }
 
 .bg-main {
-  background: #ffbc00;
-  color: #fff; }
+  background: #1089ff;
+  color: #000; }
 
 .bg-dark {
   background: #333;
@@ -50,6 +54,11 @@ input[class^='btn-']:hover {
 
 .text-center {
   text-align: center; }
+
+.text-logo {
+  font-size: 40px;
+  font-family: 'EB Garamond', serif;
+  color: #fff; }
 
 .py-1 {
   padding: 1rem 0; }
@@ -86,7 +95,7 @@ input[class^='btn-']:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background: #ffbc00;
+  background: #1089ff;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -97,7 +106,7 @@ input[class^='btn-']:hover {
 
 .item {
   position: relative;
-  background: #ffbc00;
+  background: #1089ff;
   overflow: hidden; }
   .item::after {
     content: '';
@@ -170,7 +179,8 @@ input[class^='btn-']:hover {
 body {
   font-family: 'Dosis', sans-serif;
   line-height: 1.6;
-  background: #fff; }
+  background: #fff; 
+}
 
 a {
   text-decoration: none;
@@ -211,10 +221,10 @@ img {
     #main-nav a:hover {
       border-color: #ccc; }
     #main-nav a.current {
-      border-color: #ffbc00; }
+      border-color: #1089ff; }
 
 #header-home {
-  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  background: url("../img/andrea-bg.png") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -225,9 +235,9 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
+  background: url("../img/andrea-bg.png") no-repeat 20% 30%/cover;
   height: 5.5rem;
-  border-bottom: 3px solid #ffbc00; }
+  border-bottom: 3px solid #1089ff; }
 
 #home-a .specials {
   margin-top: 3rem;
@@ -235,7 +245,7 @@ img {
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr); }
   #home-a .specials .fas {
-    color: #ffbc00;
+    color: #1089ff;
     padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -248,6 +258,10 @@ img {
     #home-b .stats li.stats-number {
       font-size: 2rem;
       font-weight: bold; }
+  #home-b .stats .myself {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; }
   #home-b .stats div {
     padding: 3rem 0; }
     #home-b .stats div:nth-child(odd) {
@@ -265,8 +279,8 @@ img {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #ffbc00;
-    color: #fff;
+    background: #1089ff;
+    color: #000;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -285,7 +299,7 @@ img {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #ffbc00;
+      background: #1089ff;
       width: 90px;
       height: 90px;
       line-height: 90px; }
@@ -303,7 +317,7 @@ img {
 
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #ffbc00;
+  border-left: 3px solid #1089ff;
   padding: 0.8rem; }
 
 #about-a .award-1 {
@@ -318,7 +332,7 @@ img {
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
-  color: #ffbc00;
+  color: #1089ff;
   margin: 1rem; }
 
 #about-b .progress {
@@ -331,7 +345,7 @@ img {
     height: 100%;
     color: #fff;
     text-align: center;
-    background: #ffbc00; }
+    background: #1089ff; }
 
 #about-c .about-logos {
   display: grid;
@@ -358,6 +372,12 @@ img {
     height: 50px;
     border-radius: 50%;
     margin-right: 0.5rem; }
+
+#about-d .social-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
 
 #contact-a .text-fields {
   display: grid;
@@ -409,7 +429,7 @@ img {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
-        background: #ffbc00; }
+        background: #1089ff; }
 
 @media (max-width: 800px) {
   #header-home {
@@ -425,7 +445,7 @@ img {
       padding: 1rem; }
   #header-home {
     height: 10rem;
-    border-bottom: 3px solid #ffbc00;
+    border-bottom: 3px solid #1089ff;
     background-position: 20% 30%; }
     #header-home .header-content {
       display: none; }

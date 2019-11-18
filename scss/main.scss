@@ -136,6 +136,11 @@ img {
           font-weight: bold;
         }
       }
+      .myself {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
 
       div {
         padding: 3rem 0;
@@ -301,6 +306,12 @@ img {
         border-radius: 50%;
         margin-right: 0.5rem;
       }
+    }
+    .social-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
   }
 }
